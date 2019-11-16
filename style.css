@@ -1,0 +1,92 @@
+
+
+.notebook{
+	width: 400px;
+	height: 550px;
+	background: #000;
+	color: #fff;
+	top: 20%;
+	left: 38%;
+	position: absolute;
+	transform: translate(-50%%, -50%);
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+
+.logo{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: -75px;
+	left: calc(50% - 75px);
+	padding-left: 9px;
+}
+
+h1{
+	margin: 0;
+	top: 60%;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 45px;
+	color: red;
+	font-family: Arial;
+}
+
+.notebook p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.notebook input{
+	width: 60%;
+	height: 45px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.notebook input[type="text"] , input[type="password"] , input[type='email']
+{
+	border: none;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.notebook input[type="submit"]{
+
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 50%;
+	background: #fb2525;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.notebook input[type="submit"]:hover{
+
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+		border-bottom: 1px solid #fff;
+}
+
+.notebook a{
+	padding-top: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+
+.notebook a:hover{
+	color: #ffc107;
+}

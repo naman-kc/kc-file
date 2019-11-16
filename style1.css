@@ -1,0 +1,98 @@
+body{
+
+	margin : 0;
+	padding: 0;
+	background: url(books_flowers_blur_108950_1920x1080.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: 70px 30px;
+}
+
+
+.signup{
+	width: 400px;
+	height: 600px;
+	background: #000;
+	color: #fff;
+	top: 27%;
+	left: 38%;
+	position: absolute;
+	transform: translate(-50%%, -50%);
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+
+.books{
+	align-self: center;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: calc(45% - 30px);
+}
+
+h1{
+	margin:0;
+	text-align: center;
+	font-size: 45px;
+	color: red;
+	font-family: Arial;
+}
+
+
+.signup p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.signup input{
+
+	width: 70%;
+	height: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.signup input[type="text"] , input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.signup input[type="submit"]{
+
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 20px;
+}
+
+.signup input[type="submit"]:hover{
+
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+		border-bottom: 1px solid #fff;
+}
+
+.signup a{
+	padding-top: 50px;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.signup a:hover{
+	color: #ffc107;
+}
